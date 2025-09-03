@@ -38,7 +38,7 @@ export const VehicleDetails: React.FC<VehicleDetailsProps> = ({ vehicle, onBack 
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <img 
-                src={vehicle.image} ||
+                src={vehicle.image}
                 alt={vehicle.name}
                 className="w-full h-96 object-cover rounded-2xl shadow-lg mb-6"
               />
